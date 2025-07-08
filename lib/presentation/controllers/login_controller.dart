@@ -8,7 +8,7 @@ class LoginController extends GetxController {
   final AuthRepository authRepository;
 
   LoginController(this.authRepository);
-1
+
   var email = ''.obs;
   var password = ''.obs;
   var isLoading = false.obs;
