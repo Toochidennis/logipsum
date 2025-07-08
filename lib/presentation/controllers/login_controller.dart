@@ -1,5 +1,4 @@
 import 'package:get/get.dart';
-import 'package:logoipsum/core/utils/validators.dart';
 import '../../repositories/auth_repository.dart';
 import '../../data/models/login_request.dart';
 import '../../data/models/login_response.dart';
@@ -13,6 +12,7 @@ class LoginController extends GetxController {
   var password = ''.obs;
   var isLoading = false.obs;
   var isRememberMe = false.obs;
+  final isPasswordObscured = true.obs;
 
   Future<void> login() async {
     isLoading.value = true;
