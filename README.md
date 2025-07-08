@@ -1,2 +1,2 @@
-# logipsum
-Login system
+# logoipsum
+A Login system
