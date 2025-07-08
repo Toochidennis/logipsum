@@ -70,6 +70,5 @@ This is a beautifully styled login screen built using **Flutter** and **GetX** f
 
 
 ## Acknowledgment
-
   Task created as part of a technical assessment.
   Design and implementation by @ToochiDennis
