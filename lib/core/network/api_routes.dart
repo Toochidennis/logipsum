@@ -1,3 +1,3 @@
 class ApiRoutes {
-  static const login = '/token';
+  static const login = '/token/';
 }

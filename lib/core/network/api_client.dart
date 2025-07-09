@@ -7,8 +7,9 @@ class ApiClient {
     : _dio = Dio(
         BaseOptions(
           baseUrl: 'https://nextpetbuddyapi.onrender.com/api/v1',
-          connectTimeout: Duration(seconds: 10),
-          receiveTimeout: Duration(seconds: 10),
+          contentType: 'application/json',
+          connectTimeout: Duration(seconds: 30),
+          receiveTimeout: Duration(seconds: 30),
         ),
       );
 
