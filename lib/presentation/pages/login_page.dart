@@ -22,7 +22,7 @@ class LoginPage extends StatelessWidget {
         systemOverlayStyle: SystemUiOverlayStyle.light,
       ),
       body: Container(
-        decoration:  BoxDecoration(
+        decoration: BoxDecoration(
           gradient: LinearGradient(
             colors: [AppColors.backgroundColor1, AppColors.backgroundColor2],
             begin: Alignment.topCenter,
